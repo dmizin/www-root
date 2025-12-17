@@ -1,18 +1,20 @@
 {
-    "cc.etke.synapse-admin": {
-        "asManagedUsers": [],
-        "corsCredentials": "same-origin",
-        "externalAuthProvider": false,
-        "menu": [],
-        "restrictBaseUrl": "https://matrix.mizincentral.com"
-    },
-    "m.homeserver": {
-        "base_url": "https://matrix.mizincentral.com"
-    },
-    "org.matrix.msc4143.rtc_foci": [
-        {
-            "livekit_service_url": "https://matrix.mizincentral.com/livekit-jwt-service",
-            "type": "livekit"
-        }
-    ]
+  "cc.etke.synapse-admin": {
+    "asManagedUsers": [
+      "^@bot\\.matrix\\-registration\\-bot:netbridge\\-io\\.com$"
+    ],
+    "corsCredentials": "same-origin",
+    "externalAuthProvider": false,
+    "menu": [],
+    "restrictBaseUrl": "https://matrix.netbridge-io.com"
+  },
+  "m.homeserver": {
+    "base_url": "https://matrix.netbridge-io.com"
+  },
+  "org.matrix.msc4143.rtc_foci": [
+    {
+      "livekit_service_url": "https://matrix.netbridge-io.com/livekit-jwt-service",
+      "type": "livekit"
+    }
+  ]
 }
